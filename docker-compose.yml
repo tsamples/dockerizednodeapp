@@ -1,0 +1,11 @@
+web:
+  build: .
+  volumes:
+    - "./app:/src/app"
+  ports:
+    - "9483:3000"
+  links:
+    - "db:redis"
+
+db:
+  image: redis

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/style/style.css' />
+  </head>
+  <body>
+    <h1>{{ title }}</h1>
+    <p>Hello World {{ title }}.</p>
+    <p>Page Count: {{ counter }} times.</p>
+  </body>
+</html>
